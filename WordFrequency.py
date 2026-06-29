@@ -27,7 +27,6 @@ for key in uniqe_words:
     for word in clean_word_list:
         if key == word:
             word_dict[key] += 1
-print(word_dict)
 
 final_list = sorted(word_dict, key = lambda x: word_dict[x], reverse=True)
 
