@@ -38,4 +38,4 @@ for n in range(N):
 
 
 # my command:
-# python פייתון_למתקדמים\WordFrequency\WordFrequency.py C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\פייתון_למתקדמים\WordFrequency\WordFrequency.txt 5
+# python פייתון_למתקדמים\WordFrequency\WordFrequency.py C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\פייתון_למתקדמים\WordFrequency\txt_files\alice.txt 5
