@@ -16,6 +16,8 @@ with open(file_path, "r") as file:
     f = file.read() #read the content of the file
     word_list = f.split(" ") #seperate to words in a list
     clean_word_list = [word.strip('".,?!').lower() for word in word_list] # make it cleaner
+    while '' in clean_word_list: #remove empty items from list
+        clean_word_list.remove('')
 
 
 #get a set of uniqe words
@@ -36,4 +38,4 @@ for n in range(N):
 
 
 # my command:
-# פייתון_למתקדמים\sys.argv_exrecise\sys.argv_exrecise.py C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\פייתון_למתקדמים\sys.argv_exrecise\sys.argv_file.txt N
+# python פייתון_למתקדמים\WordFrequency\WordFrequency.py C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\פייתון_למתקדמים\WordFrequency\WordFrequency.txt 5
